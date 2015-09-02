@@ -1,0 +1,590 @@
+{
+  "name": "CitizenGrievances",
+  "title": "CitizenGrievances",
+  "sms_keyword": "CitizenGrievances",
+  "default_language": "default",
+  "version": "201507080626",
+  "id_string": "CitizenGrievances",
+  "type": "survey",
+  "children": [
+    {
+      "label": {
+        "Nepali": "जात",
+        "English": "Caste"
+      },
+      "type": "select one",
+      "children": [
+        {
+          "name": "adivasi",
+          "label": "Adivasi/Janjati"
+        },
+        {
+          "name": "kami",
+          "label": "Kami/BK"
+        },
+        {
+          "name": "chhetri",
+          "label": "Chhetri"
+        },
+        {
+          "name": "gurung",
+          "label": "Gurung"
+        },
+        {
+          "name": "gharti",
+          "label": "Gharti/Bhujel"
+        },
+        {
+          "name": "tharu",
+          "label": "Chaudari/Tharu"
+        },
+        {
+          "name": "thakuri",
+          "label": "Thakuri"
+        },
+        {
+          "name": "tamang",
+          "label": "Tamang"
+        },
+        {
+          "name": "damai",
+          "label": "Damai/Pariyar"
+        },
+        {
+          "name": "nepali",
+          "label": "Nepali"
+        },
+        {
+          "name": "newar",
+          "label": "Newar"
+        },
+        {
+          "name": "brahmin_terai",
+          "label": "Brahmin (Terai)"
+        },
+        {
+          "name": "brahmin_hill",
+          "label": "Brahmin"
+        },
+        {
+          "name": "bhote",
+          "label": "Bhote"
+        },
+        {
+          "name": "magar",
+          "label": "Magar"
+        },
+        {
+          "name": "marwari",
+          "label": "Marwari"
+        },
+        {
+          "name": "rai",
+          "label": "Rai"
+        },
+        {
+          "name": "limbu",
+          "label": "Limbu"
+        },
+        {
+          "name": "sherpa",
+          "label": "Sherpa"
+        },
+        {
+          "name": "sanyasi",
+          "label": "Sanyasi/Dusnami"
+        },
+        {
+          "name": "other",
+          "label": "Other"
+        },
+        {
+          "name": "sunuwar",
+          "label": "Sunuwar"
+        }
+      ],
+      "name": "caste"
+    },
+    {
+      "label": {
+        "Nepali": "लिङ्ग",
+        "English": "Gender"
+      },
+      "type": "select one",
+      "children": [
+        {
+          "name": "male",
+          "label": "Male"
+        },
+        {
+          "name": "female",
+          "label": "Female"
+        },
+        {
+          "name": "third_gender",
+          "label": "Third Gender"
+        }
+      ],
+      "name": "gender"
+    },
+    {
+      "label": {
+        "Nepali": "उमेर",
+        "English": "Age"
+      },
+      "type": "select one",
+      "children": [
+        {
+          "name": "18+",
+          "label": "18-25"
+        },
+        {
+          "name": "26+",
+          "label": "26-35"
+        },
+        {
+          "name": "36+",
+          "label": "36-45"
+        },
+        {
+          "name": "46+",
+          "label": "46-55"
+        },
+        {
+          "name": "56+",
+          "label": "56-65"
+        },
+        {
+          "name": "66+",
+          "label": "66-75"
+        },
+        {
+          "name": "75",
+          "label": "75+"
+        }
+      ],
+      "name": "age"
+    },
+    {
+      "label": {
+        "Nepali": "शिक्षा",
+        "English": "Education"
+      },
+      "type": "select one",
+      "children": [
+        {
+          "name": "masters",
+          "label": "Master of Arts"
+        },
+        {
+          "name": "slc",
+          "label": "SLC"
+        },
+        {
+          "name": "studied_some",
+          "label": "Studied for Some Years"
+        },
+        {
+          "name": "phd",
+          "label": "P.hD"
+        },
+        {
+          "name": "plus_two",
+          "label": "Plus Two"
+        },
+        {
+          "name": "bachelors",
+          "label": "Bachelor of Arts"
+        },
+        {
+          "name": "never_studied",
+          "label": "Never Been to School"
+        },
+        {
+          "name": "technical",
+          "label": "Technical"
+        },
+        {
+          "name": "other",
+          "label": "Other"
+        }
+      ],
+      "name": "education"
+    },
+    {
+      "label": {
+        "Nepali": "पेशा",
+        "English": "Occupation"
+      },
+      "type": "select one",
+      "children": [
+        {
+          "name": "unemployed",
+          "label": "Not Employed"
+        },
+        {
+          "name": "ngo",
+          "label": "Non-Government Sector"
+        },
+        {
+          "name": "homemaker",
+          "label": "Homemaker"
+        },
+        {
+          "name": "professional",
+          "label": "Professional"
+        },
+        {
+          "name": "student",
+          "label": "Student"
+        },
+        {
+          "name": "business",
+          "label": "Business"
+        },
+        {
+          "name": "labourer",
+          "label": "Labourer"
+        },
+        {
+          "name": "government",
+          "label": "Government Service"
+        },
+        {
+          "name": "retired",
+          "label": "Retired"
+        }
+      ],
+      "name": "occupation"
+    },
+    {
+      "label": {
+        "Nepali": "घरभेटि/भाडावाला",
+        "English": "Renter/Owner"
+      },
+      "type": "select one",
+      "children": [
+        {
+          "name": "renter",
+          "label": "Renter"
+        },
+        {
+          "name": "owner",
+          "label": "Owner"
+        },
+        {
+          "name": "other",
+          "label": "Other"
+        }
+      ],
+      "name": "ownership"
+    },
+    {
+      "label": {
+        "Nepali": "पुर्खौली/आफैंले किनेको/बनाएको",
+        "English": "Ancestral/Purchased Property"
+      },
+      "type": "select one",
+      "children": [
+        {
+          "name": "ancestral",
+          "label": "Ancestral"
+        },
+        {
+          "name": "built",
+          "label": "Built/Bought"
+        },
+        {
+          "name": "other",
+          "label": "Other"
+        }
+      ],
+      "name": "property_type"
+    },
+    {
+      "label": {
+        "Nepali": "पहिलो समस्या",
+        "English": "#1 Issue"
+      },
+      "type": "select one",
+      "children": [
+        {
+          "name": "water",
+          "label": "Water"
+        },
+        {
+          "name": "power",
+          "label": "Power"
+        },
+        {
+          "name": "garbage",
+          "label": "Garbage"
+        },
+        {
+          "name": "roads",
+          "label": "Roads"
+        },
+        {
+          "name": "sewage",
+          "label": "Sewage"
+        },
+        {
+          "name": "security",
+          "label": "Security"
+        }
+      ],
+      "name": "issue_ranking1"
+    },
+    {
+      "label": {
+        "Nepali": "दोस्ो समस्या",
+        "English": "#2 Issue"
+      },
+      "type": "select one",
+      "children": [
+        {
+          "name": "water",
+          "label": "Water"
+        },
+        {
+          "name": "power",
+          "label": "Power"
+        },
+        {
+          "name": "garbage",
+          "label": "Garbage"
+        },
+        {
+          "name": "roads",
+          "label": "Roads"
+        },
+        {
+          "name": "sewage",
+          "label": "Sewage"
+        },
+        {
+          "name": "security",
+          "label": "Security"
+        }
+      ],
+      "name": "issue_ranking2"
+    },
+    {
+      "label": {
+        "Nepali": "तेस्रो समस्या",
+        "English": "#3 Issue"
+      },
+      "type": "select one",
+      "children": [
+        {
+          "name": "water",
+          "label": "Water"
+        },
+        {
+          "name": "power",
+          "label": "Power"
+        },
+        {
+          "name": "garbage",
+          "label": "Garbage"
+        },
+        {
+          "name": "roads",
+          "label": "Roads"
+        },
+        {
+          "name": "sewage",
+          "label": "Sewage"
+        },
+        {
+          "name": "security",
+          "label": "Security"
+        }
+      ],
+      "name": "issue_ranking3"
+    },
+    {
+      "label": {
+        "Nepali": "चौथो समस्या",
+        "English": "#4 Issue"
+      },
+      "type": "select one",
+      "children": [
+        {
+          "name": "water",
+          "label": "Water"
+        },
+        {
+          "name": "power",
+          "label": "Power"
+        },
+        {
+          "name": "garbage",
+          "label": "Garbage"
+        },
+        {
+          "name": "roads",
+          "label": "Roads"
+        },
+        {
+          "name": "sewage",
+          "label": "Sewage"
+        },
+        {
+          "name": "security",
+          "label": "Security"
+        }
+      ],
+      "name": "issue_ranking4"
+    },
+    {
+      "label": {
+        "Nepali": "पाचौँ समस्या",
+        "English": "#5 Issue"
+      },
+      "type": "select one",
+      "children": [
+        {
+          "name": "water",
+          "label": "Water"
+        },
+        {
+          "name": "power",
+          "label": "Power"
+        },
+        {
+          "name": "garbage",
+          "label": "Garbage"
+        },
+        {
+          "name": "roads",
+          "label": "Roads"
+        },
+        {
+          "name": "sewage",
+          "label": "Sewage"
+        },
+        {
+          "name": "security",
+          "label": "Security"
+        }
+      ],
+      "name": "issue_ranking5"
+    },
+    {
+      "label": {
+        "Nepali": "छैठौँ समस्या",
+        "English": "#6 Issue"
+      },
+      "type": "select one",
+      "children": [
+        {
+          "name": "water",
+          "label": "Water"
+        },
+        {
+          "name": "power",
+          "label": "Power"
+        },
+        {
+          "name": "garbage",
+          "label": "Garbage"
+        },
+        {
+          "name": "roads",
+          "label": "Roads"
+        },
+        {
+          "name": "sewage",
+          "label": "Sewage"
+        },
+        {
+          "name": "security",
+          "label": "Security"
+        }
+      ],
+      "name": "issue_ranking6"
+    },
+    {
+      "label": {
+        "Nepali": "टोल",
+        "English": "Tol"
+      },
+      "type": "select one",
+      "children": [
+        {
+          "name": "tol_name_kumarigal",
+          "label": "Kumarigal"
+        },
+        {
+          "name": "tol_name_gyan",
+          "label": "Gyan Bhairav"
+        },
+        {
+          "name": "tol_name_rudra",
+          "label": "Rudra Marg"
+        },
+        {
+          "name": "tol_name_shanti",
+          "label": "Shantinagar"
+        },
+        {
+          "name": "tol_name_saraswati",
+          "label": "Saraswatinagar"
+        },
+        {
+          "name": "tol_name_shastri",
+          "label": "Shastri Marg"
+        }
+      ],
+      "name": "tol"
+    },
+    {
+      "label": {
+        "Nepali": "वडा",
+        "English": "Ward"
+      },
+      "type": "select one",
+      "children": [
+        {
+          "name": "ward_33",
+          "label": "Ward 33"
+        },
+        {
+          "name": "ward_6",
+          "label": "Ward 6"
+        },
+        {
+          "name": "ward_7",
+          "label": "Ward 7"
+        }
+      ],
+      "name": "ward"
+    },
+    {
+      "type": "geopoint",
+      "name": "GPS",
+      "label": {
+        "Nepali": "जीपियस ठेगाना",
+        "English": "GPS Location"
+      }
+    },
+    {
+      "control": {
+        "bodyless": true
+      },
+      "type": "group",
+      "children": [
+        {
+          "bind": {
+            "readonly": "true()",
+            "calculate": "concat('uuid:', uuid())"
+          },
+          "type": "calculate",
+          "name": "instanceID"
+        }
+      ],
+      "name": "meta"
+    }
+  ]
+}
